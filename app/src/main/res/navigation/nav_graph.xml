@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainFragment">
+
+    <!-- Main Fragment -->
+    <fragment
+        android:id="@+id/MainFragment"
+        android:name="com.syncrotube.www.ui.fragments.MainFragment"
+        android:label="@string/main_fragment_label"
+        tools:layout="@layout/fragment_main">
+
+        <action
+            android:id="@+id/action_MainFragment_to_PlaylistFragment"
+            app:launchSingleTop="true"
+            app:enterAnim="@anim/slide_in_right"
+            app:destination="@id/PlaylistFragment" />
+
+        <action
+            android:id="@+id/action_MainFragment_to_FavoritesFragment"
+            app:launchSingleTop="true"
+            app:enterAnim="@anim/fragment_open_enter"
+            app:destination="@id/FavoritesFragment" />
+    </fragment>
+
+    <!-- Playlist Fragment -->
+    <fragment
+        android:id="@+id/PlaylistFragment"
+        android:name="com.syncrotube.www.ui.fragments.PlaylistFragment"
+        android:label="@string/playlist_fragment_label"
+        tools:layout="@layout/fragment_new_playlist">
+
+        <action
+            android:id="@+id/action_PlaylistFragment_to_MainFragment"
+            app:launchSingleTop="true"
+            app:exitAnim="@anim/fragment_fade_exit"
+            app:destination="@id/MainFragment" />
+    </fragment>
+
+    <!-- Favorites Fragment -->
+    <fragment
+        android:id="@+id/FavoritesFragment"
+        android:name="com.syncrotube.www.ui.fragments.FavoritesFragment"
+        android:label="@string/favorites_fragment_label"
+        tools:layout="@layout/fragment_favorites">
+
+        <action
+            android:id="@+id/action_FavoritesFragment_to_MainFragment"
+            app:launchSingleTop="true"
+            app:exitAnim="@anim/slide_out_left"
+            app:destination="@id/MainFragment" />
+    </fragment>
+</navigation>

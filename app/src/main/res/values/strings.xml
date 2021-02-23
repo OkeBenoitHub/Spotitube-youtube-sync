@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Syncrotube</string>
+    <string name="app_name_label">Syncrotube</string>
+    <string name="package_name_text" translatable="false">com.syncrotube.www</string>
+    <string name="No_internet_available_text">No internet connection!</string>
+    <string name="yesterday_text">Yesterday</string>
+    <string name="days_ago_text">days ago</string>
+    <string name="hours_ago_text">hours ago</string>
+    <string name="hour_ago_text">An hour ago</string>
+    <string name="minutes_ago_text">minutes ago</string>
+    <string name="minute_ago_text">A minute ago</string>
+    <string name="just_now_ago_text">Just now</string>
+    <string name="wifi_enabled_text">Wifi enabled</string>
+    <string name="mobile_data_enabled_text">Mobile data enabled</string>
+    <string name="youtube_api_key_syncrotube">AIzaSyAZ7ixTalfE2GnOpzA4iXSuJ6f5cePRcrE</string>
+    <string name="youtube_base_api_url" translatable="false">https://www.googleapis.com/youtube/v3/search?</string>
+    <string name="main_fragment_label" translatable="false">Syncrotube</string>
+    <string name="playlist_fragment_label">Set up your playlist</string>
+    <string name="about_head_text">Synchronize Youtube videos\nwith friends in real time!</string>
+    <string name="no_content_description" translatable="false">none</string>
+    <string name="syncrotube_helps_you_head_text">Syncrotube helps you:</string>
+    <string name="about_app1_text">Set up a custom playlist and add videos to it.</string>
+    <string name="about_app2_text">Synchronize videos from your playlist with friends.</string>
+    <string name="about_app3_text">Share your thoughts about a video with friends in real time!</string>
+    <string name="share_app_menu_item_text">Share App</string>
+    <string name="create_new_album_button_text">Set Up Playlist</string>
+    <string name="app_play_store_link" translatable="false">https://play.google.com/store/apps/details?id=com.syncrotube.www</string>
+    <string name="feedback_menu_item_text">Feedback</string>
+    <string name="report_issue_item_text">Report an issue</string>
+    <string name="share_app_item_text">Share app</string>
+    <string name="about_app_text">Synchronize Youtube videos with friends in real time!</string>
+    <string name="share_app_via_text">Share Syncrotube via:</string>
+    <string name="about_app_share_3">Click the link below to download the android app:</string>
+    <string name="send_feedback_via_text">Send feedback via</string>
+    <string name="send_report_via_text">Send report via</string>
+    <string name="give_us_feedback_text">Give us a feedback</string>
+    <string name="what_went_wrong_text">Tell us what went wrong!!</string>
+    <string name="favorites_fragment_label">Favorites</string>
+    <string name="go_to_playlist_button_text">Go to Playlist</string>
+    <string name="user_name_edit_text">User name</string>
+    <string name="playlist_name_edit_text">Playlist name</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="create_button_text">Create</string>
+    <string name="choose_photo_from_text">Choose photo from:</string>
+    <string name="failed_to_save_photo_text">Failed to saved photo</string>
+    <string name="needs_access_storage_warning">Syncrotube needs to access to storage to save photo</string>
+    <string name="save_photo_button_text">Add photo</string>
+    <string name="view_photo_activity_label">Photo</string>
+    <string name="enter_user_name_error_text">Enter an user name</string>
+    <string name="enter_playlist_name_error_text">Enter a playlist name</string>
+    <string name="five_characters_error_text">It should be at least 5 characters</string>
+    <string name="only_letters_name_error_text">It should only contain letters</string>
+    <string name="yes_button_text">Yes</string>
+    <string name="no_button_text">No</string>
+    <string name="profile_photo_add_error">Add a profile photo</string>
+    <string name="playlist_created_text">Created successfully!</string>
+    <string name="profile_photo_label_text">Profile photo</string>
+    <string name="failed_upload_profile_photo">Failed to upload profile photo</string>
+    <string name="failed_operation_text">Failed operation</string>
+    <string name="create_playlist_button_text">Set Up Playlist</string>
+    <string name="playlist_activity_label">Playlist</string>
+    <string name="sync_fragment_title_text">Sync</string>
+    <string name="videos_fragment_title_text">Videos</string>
+    <string name="wall_fragment_title_text">Wall</string>
+    <string name="delete_playlist_dialog_title">Delete playlist?</string>
+    <string name="delete_playlist_warning_msg">You\'ll no longer access it and all data will be deleted from it.</string>
+    <string name="no_videos_added_yet">Tap + to add videos to\nyour playlist.</string>
+    <string name="playlist_deleted_text">Playlist deleted</string>
+    <string name="please_wait_message_text">Please wait</string>
+    <string name="proceeding_msg_text">Proceeding</string>
+    <string name="search_for_youtube_video_edit_text">Search for a video</string>
+    <string name="search_for_a_youtube_video_header">Search for a Youtube video</string>
+    <string name="no_videos_found">No results found!</string>
+    <string name="save_video_to_playlist_text">Add to Playlist</string>
+    <string name="add_video_to_playlist_text">Add to Playlist</string>
+    <string name="failed_to_play_video_text">Failed to play video</string>
+    <string name="added_successfully_text">Added successfully</string>
+</resources>

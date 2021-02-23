@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/feedback_item"
+        android:title="@string/feedback_menu_item_text" />
+    <item
+        android:id="@+id/report_issue_item"
+        android:title="@string/report_issue_item_text" />
+    <item
+        android:id="@+id/share_app_item"
+        android:title="@string/share_app_item_text" />
+</menu>

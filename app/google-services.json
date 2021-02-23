@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "511188997005",
+    "project_id": "syncrotube-14287",
+    "storage_bucket": "syncrotube-14287.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:511188997005:android:45766ef570ae4ed98163c4",
+        "android_client_info": {
+          "package_name": "com.syncrotube.www"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "511188997005-51q03p8gm5e36k82ig16lsup8vb7pue3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARye_Vy9784nftyahgjd4c41So0vnyoKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "511188997005-51q03p8gm5e36k82ig16lsup8vb7pue3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
